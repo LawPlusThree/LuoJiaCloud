@@ -74,10 +74,12 @@ __2、成员组成和说明__
 __C++/Qt 逻辑层:__
 - 通过AWS SDK实现上传/下载过程，监听文件变化，新增/修改同步文件夹(单向、双向),处理用户登录逻辑,版本控制和历史记录(基于ETag)
 
-[项目地址]("https://github.com/LawPlusThree/QSyncUi")
+[项目地址](https://github.com/LawPlusThree/QSyncUi)
 
 __Python后端:__
-- 1.基于`mysql`数据库和`Flask`实现用户注册、登录、找回密码、设备管理;
-- 2.根据用户分配S3存储库临时Token
+- 1. 基于`mysql`数据库和`Flask`实现用户注册、登录、找回密码、设备管理;
+- 2. 根据用户分配S3存储库临时Token
+- 3. 使用Docker进行一键部署
+[项目地址](https://github.com/Alexander-Porter/qSyncBackend)
 
 **2024年7月1日 星期一**
